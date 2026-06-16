@@ -1,7 +1,7 @@
 {
   "name": "@greyw0rks/clarity-vote",
-  "version": "1.0.0",
-  "description": "SDK for interacting with ClarityVote on-chain governance contracts on Stacks",
+  "version": "1.0.1",
+  "description": "JavaScript SDK for the ClarityVote on-chain governance protocol on Stacks",
   "main": "src/index.js",
   "type": "module",
   "exports": {
@@ -15,17 +15,22 @@
     "clarity",
     "governance",
     "voting",
+    "dao",
     "blockchain",
     "web3",
-    "bitcoin"
+    "bitcoin",
+    "stx"
   ],
   "author": "greyw0rks",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/greyw0rks/clarityvote"
+    "url": "https://github.com/greyw0rks/clarity-vote-sdk.git"
   },
-  "homepage": "https://github.com/greyw0rks/clarityvote#readme",
+  "homepage": "https://github.com/greyw0rks/clarity-vote-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/greyw0rks/clarity-vote-sdk/issues"
+  },
   "peerDependencies": {
     "@stacks/transactions": ">=6.0.0",
     "@stacks/network": ">=6.0.0"
